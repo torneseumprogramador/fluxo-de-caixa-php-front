@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+body{
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dvCaixa > div{
+  background-color: #cfcfcf;
+  margin-right: 5px;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dvCaixa > div:nth-child(3){
+  background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dvBusca{
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.dvBusca input{
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dvBusca .col-md-2{
+  text-align: right;
+}
+
+.dvTabela table{
+  width: 100%;
+}
+.dvTabela table thead{
+  background-color: #cfcfcf;
+}
+.dvTabela table tr{
+  border: 1px solid #cfcfcf;
+}
+.dvTabela table td, .dvTabela table th{
+  padding: 10px;
+}
+
+.dvCadastro{
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
